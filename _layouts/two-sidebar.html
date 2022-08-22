@@ -1,0 +1,36 @@
+---
+layout: default
+---			
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-3 col-12-narrower">
+                {% include sidebar.html %}
+								
+							</div>
+							<div class="col-6 col-12-narrower imp-narrower">
+								<div id="content">
+
+									<!-- Content -->
+
+										<article>
+											<header>
+												<h2>Two Sidebar</h2>
+												<p>Yup. Two sidebars at the same time.</p>
+											</header>
+
+											<span class="image featured"><img src="/images/banner.jpg" alt="" /></span>
+
+											{{ content }}
+										</article>
+
+								</div>
+							</div>
+							<div class="col-3 col-12-narrower">
+                {% include sidebar-2.html %}
+								
+							</div>
+						</div>
+					</div>
+				</section>
