@@ -26,10 +26,10 @@
 										<li><a href="#">Veroeros feugiat</a></li>
 									</ul>
 								</li>
-								<li class="{% if page.url == '/left-sidebar/' %} current{% endif %}"><a href="/left-sidebar/">Left Sidebar</a></li>
-								<li class="{% if page.url == '/right-sidebar/' %} current{% endif %}"><a href="/right-sidebar/">Right Sidebar</a></li>
-								<li class="{% if page.url == '/two-sidebar/' %} current{% endif %}"><a href="/two-sidebar/">Two Sidebar</a></li>
-								<li class="{% if page.url == '/no-sidebar/' %} current{% endif %}"><a href="/no-sidebar/">No Sidebar</a></li>
+								<li class="{% if page.url == '{{ site.baseurl }}/left-sidebar/' %} current{% endif %}"><a href="{{ site.baseurl }}/left-sidebar/">Left Sidebar</a></li>
+								<li class="{% if page.url == '{{ site.baseurl }}/right-sidebar/' %} current{% endif %}"><a href="{{ site.baseurl }}/right-sidebar/">Right Sidebar</a></li>
+								<li class="{% if page.url == '{{ site.baseurl }}/two-sidebar/' %} current{% endif %}"><a href="{{ site.baseurl }}/two-sidebar/">Two Sidebar</a></li>
+								<li class="{% if page.url == '{{ site.baseurl }}/no-sidebar/' %} current{% endif %}"><a href="{{ site.baseurl }}/no-sidebar/">No Sidebar</a></li>
 							</ul>
 						</nav>
 
