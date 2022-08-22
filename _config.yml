@@ -1,9 +1,9 @@
 # Setup
 title: Arcana by HTML5 UP
 tagline: Your Website Tagline
-url: https://avicndugu.github.io/arcana-theme-jekyll/
+url: https://avicndugu.github.io/arcana-theme-jekyll
 paginate: 3
-baseurl: "/arcana-theme-jekyll/"
+baseurl: "/arcana-theme-jekyll"
 permalink: pretty
 
 # Gems
