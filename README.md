@@ -1,19 +1,21 @@
-# Jekyll on Replit
+# Jekyll Paradigm Shift
 
-This is a styled Jekyll template to get you started with Jekyll static site generator on Replit. It's ready to go so you can just hit run and start coding!
+This is a multi page website design created from Arcana HTML template.
 
-The template uses the regular method of adding themes instead of gem-based themes. If you prefer using the gem-based themes use [Jekyll gem-based template](https://replit.com/@AvicNdugu/Jekyll-Using-Gem-base-Theme) instead. For those who want a barebone Jekyll theme without any styling, use [Barebone Jekyll template](https://replit.com/@AvicNdugu/Jekyll).
+Template conversion to Jekyll by [@_ndugu](https://twitter.com/_ndugu) 
 
-## Running the repl
+HTML Template Design by [@ajlkn](https://twitter.com/ajlkn)
 
-Simply hit run!
 
-## Installing Additional packages
+## How to Use This Theme
+Jekyll uses themes in two ways: gem-based or regular method. The regular method has the theme files spread across multiple folders in the site source. This port of Paradigm Shift uses the regular method.
 
-To add packages to your Jekyll repl, we recommend using the Replit packager interface in the left sidebar or using `bundle install` in the shell. Check out the [Bundle docs here](https://bundler.io/v2.3/#getting-started).
+This means you can simply grab the zip file or clone this repository, run `bundle install` in the new directory and finally `bundle exec jekyll serve`.
 
-To add a regular theme, find the desired theme on jekyll themes website. Then add the necessary folders(_layouts, _data, and _include) and files in the main home directory from the theme. Add your posts in the _posts directory.
+You can now access your brand-new Jekyll site on [http://127.0.0.1:4000/][local].
 
-## Help
+Enjoy!
 
-If you need help you might be able to find an answer on [Jekyll docs](https://jekyllrb.com/) For help on Replit, visit [Replit docs](https://docs.replit.com) page. Feel free to report bugs and give us feedback [here](https://replit.com/support).
+If you're completely new to Jekyll, check out it's [documentation][jekyll] first.
+
+It's not too hard, we promise!
