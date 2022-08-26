@@ -1,4 +1,4 @@
-# Jekyll Paradigm Shift
+# Arcana Jekyll Theme
 
 This is a multi page website design created from Arcana HTML template.
 
