@@ -16,6 +16,6 @@ You can now access your brand-new Jekyll site on [http://127.0.0.1:4000/][local]
 
 Enjoy!
 
-If you're completely new to Jekyll, check out it's [documentation][jekyll] first.
+If you're completely new to Jekyll, check out it's [documentation][[jekyll](https://jekyllrb.com/docs/)] first.
 
 It's not too hard, we promise!
