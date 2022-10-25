@@ -1,0 +1,19 @@
+main:
+  - name: "Home"
+    url: "/"
+    weight: 2
+  - name: "Dropdown"
+    url: "#"
+    weight: 3
+  - name: "Left Sidebar"
+    url: "/left-sidebar/"
+    weight: 4
+  - name: "Right Sidebar"
+    url: "/right-sidebar/"
+    weight: 5
+  - name: "Two Sidebar"
+    url: "/two-sidebar/"
+    weight: 6
+  - name: "No Sidebar"
+    url: "/no-sidebar/"
+    weight: 7
