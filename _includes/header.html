@@ -7,17 +7,24 @@
   <nav id="nav">
     <ul>
       {% for item in site.data.menus.main %}
-      
         {% if item.sub != null %}
         <li class="opener">
-        <a href="#">{{ item.name }}</a>
+          <a href="#">{{ item.name }}</a>
           <!-- 2nd level -->
           <ul>
             {% for sub in item.sub %}
             <li>
-              <a href="{{ sub.url }}">
-                {{ sub.name }}
-              </a>
+              <a href="{{ sub.url }}">{{ sub.name }}</a>
+              {% if sub.sub != null %}
+              <!-- 3rd level -->
+              <ul>
+                {% for sub in sub.sub %}
+                <li>  
+                <a href="{{ sub.url }}">{{sub.name}}</a>
+                </li>
+                {% endfor %}
+              </ul>  
+              {% endif %}
             </li>
             {% endfor %}
           </ul>

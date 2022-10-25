@@ -15,6 +15,22 @@ main:
       - name: "Etiam sed tempus"
         url: "#"
         weight: 4
+      - name: "Submenu"
+        url: "#"
+        weight: 4
+        sub:
+          - name: "Dolor Lorem"
+            url: "#"
+            weight: 2
+          - name: "Phasellus Magna"
+            url: "#"
+            weight: 3
+          - name: "Tempus sed Etiam"
+            url: "#"
+            weight: 4
+      - name: "Veroeros feugiat tempus"
+        url: "#"
+        weight: 4
   - name: "Left Sidebar"
     url: "/left-sidebar/"
     weight: 4
