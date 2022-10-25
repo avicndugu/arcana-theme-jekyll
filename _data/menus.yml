@@ -5,6 +5,16 @@ main:
   - name: "Dropdown"
     url: "#"
     weight: 3
+    sub:
+      - name: "Lorem dolor"
+        url: "#"
+        weight: 2
+      - name: "Magna phasellus"
+        url: "#"
+        weight: 3
+      - name: "Etiam sed tempus"
+        url: "#"
+        weight: 4
   - name: "Left Sidebar"
     url: "/left-sidebar/"
     weight: 4
